@@ -30,6 +30,7 @@
   </head>
 
   <body>
+
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container">
@@ -56,27 +57,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#carrusel">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Features</a
+              <a class="nav-link active" aria-current="page" href="#quienes-somos"
+                >Quienes Somos</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Pricing</a
+              <a class="nav-link active" aria-current="page" href="#destacados"
+                >Destacados</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Disabled</a
+              <a class="nav-link active" aria-current="page" href="#contacto"
+                >Contacto</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <!-- carrusel -->
     <header id="carrusel">
       <div
@@ -127,9 +129,11 @@
         </button>
       </div>
     </header>
+
     <!-- quienes somos -->
     <section
       class="container-fluid bg-black pt-4 pb-5 d-none d-sm-none d-md-block"
+      id="quienes-somos"
     >
       <div class="py-4">
         <h2 class="text-center text-light">QUIENES SOMOS</h2>
@@ -172,9 +176,11 @@
       </div>
     </section>
 
-    <section class="bg-black text-white">
+    <!-- destacados -->
+    <section class="bg-black text-white" id="destacados">
       <div class="container">
         <div class="py-4 text-center"><h2>DESTACADOS</h2></div>
+        <hr class="mt-4 bg-info" />
         <div class="row row-cols-1 row-cols-md-4 g-4 py-4">
           <div class="col">
             <div class="card h-100 mb-4">
@@ -247,9 +253,11 @@
       </div>
     </section>
 
-    <section class="bg-black text-white">
+    <!-- contacto -->
+    <section class="bg-black text-white py-5" id="contacto">
       <div class="container">
         <div class="text-center p-5"><h2>CONTACTO</h2></div>
+        <hr class="mt-4 bg-info" />
         <div class="pb-3">
           <label for="exampleFormControlInput1" class="form-label"
             >Nombre</label
@@ -281,6 +289,22 @@
         <button type="button" class="btn btn-info text-white">Enviar</button>
       </div>
     </section>
+
+    <!-- footer -->
+    <footer class="bg-info text-white">
+      <div class="row container-fluid py-3">
+        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+          <h2 class="px-5 text-center">VIAJES CHILE</h2>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 ms-auto">
+          <i class="fa-brands fa-github fa-2x px-2"></i>
+          <i class="fa-brands fa-linkedin fa-2x px-2"></i>
+          <i class="fa-brands fa-twitter-square fa-2x px-2"></i>
+          <i class="fa-brands fa-facebook-square fa-2x px-2"></i>
+        </div>
+      </div>
+    </footer>
+
     <!-- Jquery cdn -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
